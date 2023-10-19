@@ -12,6 +12,8 @@ DIDS is a disk-based index supporting both approximate and exact searches
 
 ## Datasets
 
+OneDrive: https://1drv.ms/f/s!AoEnTHhjbNSigVaujcVXpN2hqsBF?e=7YJWzp
+
 ## API
 
 DIDS consists entirely of `.hpp` files. 
@@ -36,7 +38,7 @@ DIDS has a total of 4 APIs, two for building and two for querying.
 
 ## A running example
 
-Here's an example in `example.cpp` that generates 1,000,000 data sequences, builds a DIDS index, loads the DIDS index from disk, and performs approximate and exact queries.
+Here's an example in `example.cpp` that generates 1,000,000 data series, builds a DIDS index, loads the DIDS index from disk, and performs approximate and exact queries.
 
 ```c++
 #include "DIDS/dids_factory.hpp"
